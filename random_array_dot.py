@@ -9,5 +9,5 @@ tic = time.time()
 c = np.dot(a, b)
 toc = time.time()
 
-print("Value = " + str(c))
-print("Time = " + str(1000 * (toc - tic)) + "ms")
+print(f"Value = {c}")
+print(f"Time = { 1000 * (toc - tic) :.2f} ms")
