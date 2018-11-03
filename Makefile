@@ -1,5 +1,5 @@
 
-CFLAGS = -std=c++14 -Wall -Wextra -Wpedantic -O2 -g0 -v
+CFLAGS = -std=c++14 -Wall -Wextra -Wpedantic -O2 -g0 -v -march=native
 LDFLAGS =  -fopenmp
 
 random_array: random_array_dot.cpp

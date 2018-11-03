@@ -2,8 +2,8 @@ import numpy as np
 import time
 
 
-a = np.random.rand(100_000_000)
-b = np.random.rand(100_000_000)
+a = np.random.rand(160_000_000)
+b = np.random.rand(160_000_000)
 
 tic = time.time()
 c = np.dot(a, b)
